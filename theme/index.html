@@ -17,9 +17,12 @@
   <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script><style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
-        }</style></head>
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
 <body class="body">
-  <div class="wf-section">
+  <div class="section wf-section">
     <div class="w-layout-grid grid">
       <div id="w-node-_4e367be1-fdb4-bd64-fca6-87fbcf3e8f8c-17496020" class="div-block-2">
         <h1 class="heading">{{ texts.2454045 }}</h1>
